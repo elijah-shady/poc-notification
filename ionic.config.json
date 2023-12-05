@@ -1,0 +1,7 @@
+{
+  "name": "poc-notification",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
