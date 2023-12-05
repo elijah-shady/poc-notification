@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">poc-notification</string>
+    <string name="title_activity_main">poc-notification</string>
+    <string name="package_name">com.pocnotification.app</string>
+    <string name="custom_url_scheme">com.pocnotification.app</string>
+</resources>

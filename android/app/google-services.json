@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "672541607771",
+    "project_id": "test-notification-cc74d",
+    "storage_bucket": "test-notification-cc74d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672541607771:android:410c14a7190d0b536ffc7e",
+        "android_client_info": {
+          "package_name": "com.pocnotification.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzBQ289plovR9JpRlNNcDhLboJGj6pS4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
