@@ -7,12 +7,15 @@
 <script setup lang="ts">
 import { IonApp, IonRouterOutlet } from '@ionic/vue';
 import { onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import {
 	ActionPerformed,
 	PushNotificationSchema,
 	PushNotifications,
 	Token,
 } from '@capacitor/push-notifications';
+
+const router = useRouter()
 
 onMounted(() => {
 	console.log('Initializing HomePage');
@@ -33,6 +36,7 @@ onMounted(() => {
 	PushNotifications.addListener('registration',
 		(token: Token) => {
 			alert('Push registration success, token: ' + token.value);
+			console.log('Push registration success, token: ' + token.value)
 		}
 	);
 
@@ -54,6 +58,7 @@ onMounted(() => {
 	PushNotifications.addListener('pushNotificationActionPerformed',
 		(notification: ActionPerformed) => {
 			alert('Push action performed: ' + JSON.stringify(notification));
+			router.push('/tabs/tab2')
 		}
 	);
 })
